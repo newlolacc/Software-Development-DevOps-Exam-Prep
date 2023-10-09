@@ -54,5 +54,6 @@ jobs:
         cache: 'npm'
 
     - run: npm i
+    - run: npx playwright install
     - run: npm run test:ui
           
